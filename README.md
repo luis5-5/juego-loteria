@@ -133,9 +133,9 @@ Requisitos
 
 Notas Importantes
 
-1. Configuración de sesiones:** `session_start()` debe estar al inicio de `controller.php`
-2. Conexión a BD:** Actualizar credenciales en `model.php` si es necesario
-3. Rutas de imágenes:** Verificar que la carpeta `imagenes/` contenga las imágenes necesarias
+1. Configuración de sesiones: `session_start()` debe estar al inicio de `controller.php`
+2. Conexión a BD: Actualizar credenciales en `model.php` si es necesario
+3. Rutas de imágenes: Verificar que la carpeta `imagenes/` contenga las imágenes necesarias
 4. Permisos: Asegurar permisos de escritura en la carpeta del proyecto
 
 Grupo de Trabajo
