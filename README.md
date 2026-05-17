@@ -11,7 +11,7 @@ Proyecto de mejora del juego de lotería
 - Pantallas diferenciadas para resultados (Ganaste, Perdiste, Game Over)
 
  2.  Modificación del Puntaje Inicial
-- Puntaje inicial modificado de **1000** a **2000**
+- Puntaje inicial modificado de 1000 a 2000
 - Cambios en `controller.php` línea 10
 - Cambios en `view.php` línea 12
 
@@ -140,7 +140,7 @@ Notas Importantes
 
 Grupo de Trabajo
 Luis Alfonso Mosquera Nene
-Emmanuel 
+Emmanuel Muñoz dorado - 2453791
 
 Fecha de Entrega
 17 de mayo de 2026
