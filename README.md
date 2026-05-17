@@ -1,21 +1,21 @@
-# 🎰 Juego de Lotería v1.1
+ Juego de Lotería v1.1
 
-Proyecto de mejora del juego de lotería implementado con PHP, MySQL, HTML y CSS como parte del taller de DevOps, Git y Docker.
+Proyecto de mejora del juego de lotería
 
-## 📋 Cambios realizados en v1.1
+ Cambios realizados en v1.1
 
-### 1. ✅ Mejora de Interfaz
+ 1. Mejora de Interfaz
 - Diseño moderno con gradientes y animaciones
 - Interfaz responsiva para dispositivos móviles
 - Iconos y mejores visuales
 - Pantallas diferenciadas para resultados (Ganaste, Perdiste, Game Over)
 
-### 2. ✅ Modificación del Puntaje Inicial
+ 2.  Modificación del Puntaje Inicial
 - Puntaje inicial modificado de **1000** a **2000**
 - Cambios en `controller.php` línea 10
 - Cambios en `view.php` línea 12
 
-### 3. ✅ Subida a GitHub
+ Subida a GitHub
 ```bash
 # Inicializar repositorio
 git init
@@ -28,20 +28,20 @@ git push -u origin main
 
 **Link del repositorio:** [[Tu repositorio aquí]](https://github.com/luis5-5/juego-loteria.git)
 
-### 4. ✅ PHP Lint (Análisis Estático)
+ 4. PHP Lint (Análisis Estático)
 ```bash
 # Ejecutar PHP Lint
 php php_lint.php
 ```
-**Resultado:** ✓ Sin errores críticos encontrados
+Resultado:  Sin errores críticos encontrados
 
-### 5. ✅ Pruebas Unitarias
+ 5. Pruebas Unitarias
 ```bash
 # Ejecutar pruebas del método jugar()
 php test_jugar.php
 ```
 
-**Pruebas incluidas:**
+Pruebas incluidas:
 - Test 1: Puntaje inicial es 2000
 - Test 2: Victoria suma 200 puntos
 - Test 3: Derrota resta 10 puntos
@@ -49,15 +49,15 @@ php test_jugar.php
 - Test 5: Generación correcta de números aleatorios
 - Test 6: Game Over cuando puntaje = 0
 
-### 6. ✅ Empaquetado (v1.1)
-```bash
+ 6. Empaquetado (v1.1)
+``bash
 # Crear archivo ZIP con el proyecto
 tar -czf juego-loteria-v1.1.tar.gz .
 ```
 o usando el Explorador de Windows:
 - Clic derecho en carpeta → "Enviar a" → "Carpeta comprimida"
 
-### 7. ✅ Despliegue en Apache
+ 7. Despliegue en Apache
 ```bash
 # Copiar archivos a htdocs (Windows XAMPP)
 xcopy /E /I . "C:\xampp\htdocs\juego-loteria\"
@@ -69,7 +69,7 @@ sudo cp -r . /var/www/html/juego-loteria/
 http://localhost/juego-loteria/
 ```
 
-### 8. 📊 Usando Docker (Opcional - Alternativa moderna)
+ 8. Usando Docker (Opcional - Alternativa moderna)
 ```dockerfile
 # Dockerfile
 FROM php:7.4-apache
@@ -85,13 +85,13 @@ EXPOSE 80
 CMD ["apache2-foreground"]
 ```
 
-**Construir y ejecutar:**
+Construir y ejecutar:
 ```bash
 docker build -t juego-loteria .
 docker run -p 80:80 juego-loteria
 ```
 
-## 📁 Estructura del Proyecto
+Estructura del Proyecto
 ```
 juego-loteria/
 ├── index.php           # Punto de entrada principal
@@ -110,7 +110,7 @@ juego-loteria/
     └── 3.jpg
 ```
 
-## 🗄️ Configuración de Base de Datos
+ Configuración de Base de Datos
 
 ```sql
 CREATE TABLE puntajes (
@@ -125,32 +125,28 @@ Importar con:
 mysql -u root juego < juego.sql
 ```
 
-## 🔧 Requisitos
+Requisitos
 - PHP >= 7.4
 - MySQL >= 5.7
 - Apache (o servidor web compatible)
 - (Opcional) Docker
 
-## 📝 Notas Importantes
+Notas Importantes
 
-1. **Configuración de sesiones:** `session_start()` debe estar al inicio de `controller.php`
-2. **Conexión a BD:** Actualizar credenciales en `model.php` si es necesario
-3. **Rutas de imágenes:** Verificar que la carpeta `imagenes/` contenga las imágenes necesarias
-4. **Permisos:** Asegurar permisos de escritura en la carpeta del proyecto
+1. Configuración de sesiones:** `session_start()` debe estar al inicio de `controller.php`
+2. Conexión a BD:** Actualizar credenciales en `model.php` si es necesario
+3. Rutas de imágenes:** Verificar que la carpeta `imagenes/` contenga las imágenes necesarias
+4. Permisos: Asegurar permisos de escritura en la carpeta del proyecto
 
-## 👥 Grupo de Trabajo
-- Integrante 1: [Nombre]
-- Integrante 2: [Nombre]
-- Integrante 3: [Nombre]
-- Integrante 4: [Nombre]
+Grupo de Trabajo
+Luis Alfonso Mosquera Nene
+Emmanuel 
 
-## 📅 Fecha de Entrega
+Fecha de Entrega
 17 de mayo de 2026
 
-## 🔗 Recursos Utilizados
-- **Git:** [https://git-scm.com/](https://git-scm.com/)
-- **Docker:** [https://www.docker.com/](https://www.docker.com/)
-- **PHP:** [https://www.php.net/](https://www.php.net/)
+ 🔗 Recursos Utilizados
+- Git:[https://git-scm.com/](https://git-scm.com/)
+- Docker: [https://www.docker.com/](https://www.docker.com/)
+- PHP: [https://www.php.net/](https://www.php.net/)
 
----
-*Proyecto desarrollado como parte del taller de DevOps, Git y Docker*
