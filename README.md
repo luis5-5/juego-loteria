@@ -26,7 +26,7 @@ git remote add origin https://github.com/tu-usuario/juego-loteria.git
 git push -u origin main
 ```
 
-**Link del repositorio:** [[Tu repositorio aquí]](https://github.com/luis5-5/juego-loteria.git)
+Link del repositorio: (https://github.com/luis5-5/juego-loteria.git)
 
  4. PHP Lint (Análisis Estático)
 ```bash
