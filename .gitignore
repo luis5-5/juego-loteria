@@ -1,0 +1,17 @@
+node_modules/
+.env
+.DS_Store
+*.log
+vendor/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+# Archivos y guías privadas (no subir a GitHub)
+LEEME_PRIMERO.txt
+GUIA_PASO_A_PASO.md
+RESUMEN_PREPARACION.txt
+INFORME_TEMPLATE.md
+INSTRUCCIONES_ENTREGA.txt
+private_docs/
