@@ -139,9 +139,10 @@ Notas Importantes
 4. Permisos: Asegurar permisos de escritura en la carpeta del proyecto
 
 Grupo de Trabajo
-*Luis Alfonso Mosquera Nene - 2453885*
-*Emmanuel Muñoz dorado - 2453791*
-*Juan José Cifuentes Peña - 2453696* 
+
+-Luis Alfonso Mosquera Nene - 2453885
+-Emmanuel Muñoz dorado - 2453791
+-Juan José Cifuentes Peña - 2453696
 
 Fecha de Entrega
 17 de mayo de 2026
